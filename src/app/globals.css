@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.submit-form {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 40em;
+
+    button {
+        padding: 8px;
+        background-color: rgb(208, 104, 92);
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        gap: 10px;
+    }
+}
